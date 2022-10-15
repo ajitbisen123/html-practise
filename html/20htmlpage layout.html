@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page layout</title>
+    <style>
+        .head1{
+            font-size:40px;
+            color: aqua;
+            font-weight:bold;
+        }
+        .head2{
+            color: rgb(89, 0, 255);
+            font-size: 17px;
+            margin-left: 10px;
+            margin-bottom: 15px; 
+        }
+        body{
+            color: rgb(255, 0, 13);
+            margin: auto;
+            background-position: center;
+            background-size: contain;
+        }
+        .menu{
+            position: sticky;
+            top: auto;
+            background-color: rgb(111, 0, 255);
+            padding:10px 0px 10px 0px;
+            color:rgb(34, 32, 32);
+            margin: 0 auto;
+            overflow:hidden;
+        }
+        .menu a{
+            float:left;
+            color:white;
+            -ms-text-align-last: ;
+            padding:14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .menu-log{
+            right:0%;
+            float:right;
+        }
+        footer{
+            width: 100%;
+            bottom: 0px;
+            background-color: #000;
+            color: #fff;
+            position: absolute;
+            padding-top:20px;
+            padding-bottom:50px;
+            text-align:center;
+            font-size:30px;
+            font-weight:bold;
+        }
+        .bodysection{
+            margin:inherit;
+            color: aqua;
+        }
+    </style>
+
+</head>
+<body>
+    <!--header section-->
+    <header>
+        <div class="head1">geeks for geeks</div>
+        <div class="head2">a computer science portal for student</div>
+    </header>
+    <!-- menu navigation bar -->
+    <nav class="menu">
+        <a href="#home">home</a>
+        <a href="#news">news</a>
+        <a href="#notification">notifications</a>
+        <div class="menu-log">
+            <a href="#login">login</a>
+
+        </div>
+
+    </nav>
+    <!-- body section -->
+    <main class="bodysection">
+        <section id="content">
+            <h3>content section</h3>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer>footer section</footer>
+</body>
+</html>
